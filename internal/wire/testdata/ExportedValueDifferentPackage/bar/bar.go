@@ -17,7 +17,7 @@ package bar
 import (
 	"os"
 
-	"github.com/google/wire"
+	"github.com/appzic/google-wire"
 )
 
 var Value = wire.Value(os.Stdout)
